@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "proto-database-repository",
+  "private_key_id": "0c93c4815c9d032fbf8dc1b0d2c9880a4cc633d2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDkvsdpO4/lIV9I\noaKXu01N5rW5PIRnX/UdEmtJAxzKORXoRhcwpUzF8itgx/FMwLwIm+0JDlO44bNf\ncWScN++su7DjI7rc+U9twGcnwprv/CQUal5HUXfJCA4BvZajDjXXrTXkno+ia5qg\nBG6voEAB0SqINXammmG7hMtcUaYw5MSQOtRlZSttcrLM3eih1W3hT0/CM8mFnysv\nZKagFI/Q76bA8b5ayw5DXqRfPKT3ocyW4kSiu23tjaFZUbxR1U89TWPzE+JD03W6\nF1JxB3cGMJflFs/IzpONCjod5J/jdQSNohdBHuiRmSgYHt3oCHLS/hll0f20sEyz\nerAzxeyPAgMBAAECggEAV6/2u5V0pO51G1+y9516leliMl9LlmFHklx0OinySGc3\nybHMw/4p/xvFmzUqgDTGIDq91CHk4FPNMkJCwkwDGeFdfsU8pecAlt8R7EECqgqr\nPhREjexiEfN/gxVNgLY617Hzne9WunmrbbolQDgbMVcgidSM5nL6Eitm1b4LCmR+\nWOY1bneUJjXg2ZnWZdfLT+mZnFT84S5S/wcPBvKJy3iP5ZGmSpZEfqYk40VpHh8H\nlcCOL2vaPCM2uQI9yizmUyJhH12tDuLApHGRTrehioH7CW+AzrKWqOVmJXNwPL3U\nnGnwIPgetTs4VFUWNmG7AQUx84sO48wUuTZbOa8NUQKBgQD+8qV50U8pSznQOhUR\nsUZQH3hdeUqftvXP9ftSCEV5UB3kzZy026n7PzCzGztG30TUHDu7PEPPM0cTHkVX\nLDruAb11eA7OSkD6FIoGLKiqVojxEkm/ESiGk78UB5WRxKiM9tpAu40vSrjy0L49\ndntrWpNuO3mwxRVzUbxC7xJP9wKBgQDlsHMKilWLym0RFdG3CdksstIXOUicEIQ+\nOGbvbY5VfJZBV8c/HP6+aSTzE0EFCl74iENEhvZddi6uodV+gVXbqd7cEe8Nq/0N\nrPfQq9lZtmUwE6I25ZIA6gyFfHdpAxd91Tfw/FwzHQ6tqpzAZ4ZPZJsFEsFah9y2\nDPFm+xZSKQKBgE/LYj9eY4hpIw8pHq8K7RbmwqV+8PxMJ2OPebmTHSt7B+A0+ncg\nyXL5tCRawZLNDp3UuF1B33dadURmlQ1Tqp4TrVi22ut2EiAzjX+hOqkVrIbHUo2a\nsTRtycBbH1UgWCDGokjgarACkyBsdR6Hltli4AIAW3YYOT5+to28hd7BAoGAD8u5\nraDjzzBFneYtPPQ9bjiCADzdRHZSUeEZGyAiqLhfsPCzcCCzWC7s7paFYy5aZ6cf\nUSgi6zyEa1gP0ZpdaDTfcaz+DqekSHt7s2sOEIBdpxfCkRnql4uA/vEXWS5wQCQY\nq8b/JDi8WK8iBo1YDD+z9X5bs7kiMZbkRxu/ZjkCgYA+WupAnsCYBgABmvd2xYpQ\nTipje+iHvaleFtC7JWkg7Vn1M/idNqXKMKPPYAP6cYidgFu7c6434WEK/33Vg26C\n9w2o/wIqE3mPIR0XHdYjRkSXn4oHSrsZsU+CXUROn/UkJ5feOIduncwfbB1myaCD\nCVUSsbd8UeexIV567A6xCg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "protoaccount@proto-database-repository.iam.gserviceaccount.com",
+  "client_id": "100484940017735152129",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/protoaccount%40proto-database-repository.iam.gserviceaccount.com"
+}
