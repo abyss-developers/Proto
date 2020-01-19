@@ -1,3 +1,5 @@
+
+
 def isAccount(logUser, logPass, num_lines, islist, search):
   for c in credentials:
     if c == "{}:{}".format(logUser, logPass):
@@ -27,6 +29,7 @@ def register():
     f.write("\n{}:{}".format(username,password))
     f.close()
     print("Successfully registered.")
+    login()
   elif confirm != password:
     print("Your passwords do not match up! Please try again.")
     register()
