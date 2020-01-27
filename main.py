@@ -62,9 +62,10 @@ def writeEntree(nameText, dateText, bodyText):
     writeName = nameText.get()
     writeDate = dateText.get()
     writeBody = bodyText.get()
-    finishedentree = ["{}\n{}\n{}".format(writeName, writeDate, writeBody)]
+    finishedentree = ["{}\n{}\n{}\n---------------------\n".format(writeName, writeDate, writeBody)]
     sheet2.insert_row(finishedentree, 2)
     print("Done")
+
 
 def newentree():
     entrefreme = Toplevel()
@@ -76,7 +77,8 @@ def newentree():
     nameText = Entry(journalframe, width=50, borderwidth=4)
     dateText = Entry(journalframe, width=50, borderwidth=4)
     bodyText = Entry(journalframe, width=80, borderwidth=4)
-    submit = Button(journalframe, text="Submit", fg="green", font=("Arial", 20), borderwidth=4, command=lambda: writeEntree(nameText, dateText, bodyText))
+    submit = Button(journalframe, text="Submit", fg="green", font=("Arial", 20), borderwidth=4,
+                    command=lambda: writeEntree(nameText, dateText, bodyText))
 
     nameLabel.grid(row=1, column=1, columnspan=2)
     nameText.grid(row=2, column=1, columnspan=2)
@@ -84,9 +86,23 @@ def newentree():
     dateText.grid(row=4, column=1, columnspan=2)
     bodyLabel.grid(row=5, column=1, columnspan=2)
     bodyText.grid(row=6, column=1, columnspan=2)
-    submit.grid(row=7,column=1,columnspan=2)
+    submit.grid(row=7, column=1, columnspan=2)
 
     entrefreme.title("New PROTO Entree")
+
+
+def feed_check():
+    feedframe = Toplevel()
+    feedframe.title("My Feed (Restart client to see your own submission)")
+    journalframe = LabelFrame(feedframe, text="My Feed", padx=2, pady=2, font=("Helvetica", 45))
+    journalframe.pack(padx=10, pady=10)
+
+    for e in col2:
+        print(e)
+    print(col2)
+
+    feed = Label(journalframe, text=col2)
+    feed.grid(row=1, column=1)
 
 
 def myClick():  # This gets ran whenever button is pressed
@@ -105,7 +121,8 @@ def myClick():  # This gets ran whenever button is pressed
             test = Button(clientframe, text="New PROTO", width=33, height=20, borderwidth=6, font=("Helvetica", 18),
                           command=newentree)
             test.grid(row=1, column=1)
-            test = Button(clientframe, text="My Feed", width=33, height=20, borderwidth=6, font=("Helvetica", 18))
+            test = Button(clientframe, text="My Feed", width=33, height=20, borderwidth=6, font=("Helvetica", 18),
+                          command=feed_check)
             test.grid(row=1, column=2)
 
             lbl.pack()
